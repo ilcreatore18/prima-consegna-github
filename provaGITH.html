@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcolo area rettangolo</title>
+    <title>Calcolo perimetro e area rettangolo</title>
 </head>
 <body>
-    <h1>prova n1</h1>    
+
+    <h2>Calcolo Perimetro e Area del Rettangolo</h2>
+
+    <form action="calcolo.php" method="POST">
+        <p>
+            <label for="base">Inserire base:</label><br>
+            <input type="number" id="base" name="base" required>
+        </p>
+
+        <p>
+            <label for="altezza">Inserire altezza:</label><br>
+            <input type="number" id="altezza" name="altezza" required>
+        </p>
+
+        <p>
+            <input type="submit" value="Invia valori">
+            <input type="reset" value="Cancella valori">
+        </p>
+    </form>
+
 </body>
 </html>
